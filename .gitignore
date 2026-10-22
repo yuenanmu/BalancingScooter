@@ -1,0 +1,49 @@
+# C/C++ compiler and linker outputs
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.elf
+*.axf
+*.out
+*.hex
+*.bin
+*.map
+*.lst
+
+# Conventional generated build directories (repository root only)
+/build/
+/cmake-build-*/
+
+# VS Code local settings and caches
+.vscode/
+*.code-workspace
+
+# Keil generated outputs and per-user settings
+Objects/
+Listings/
+*.uvguix.*
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.crf
+*.lnp
+*.sct.bak
+# Keep *.uvproj, *.uvprojx, *.sct, RTE configuration and all sources.
+
+# Obsidian local metadata, caches and deleted-file storage
+.obsidian/
+.trash/
+
+# Editor/OS temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
